@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  background: #23415c;
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+
+.navbar .navbar-brand {
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+/*# sourceMappingURL=style.css.map */

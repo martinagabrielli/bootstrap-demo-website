@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.navbar {
+    background: #23415c;
+    padding: 1% 0;
+    font-size: 1.2em;
+    .navbar-brand {
+        min-height: 55px;
+        padding: 0 15px 5px;
+    }
+}
