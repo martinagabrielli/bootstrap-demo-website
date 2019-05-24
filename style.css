@@ -3,14 +3,101 @@ html, body {
   width: 100%;
 }
 
-.navbar {
+html .navbar, body .navbar {
   background: #23415c;
   padding: 1% 0;
   font-size: 1.2em;
 }
 
-.navbar .navbar-brand {
+html .navbar .navbar-brand, body .navbar .navbar-brand {
   min-height: 55px;
   padding: 0 15px 5px;
+}
+
+html .navbar .navbar-nav li a, body .navbar .navbar-nav li a {
+  color: #d5d5d5;
+}
+
+html .navbar .navbar-nav li a:hover, html .navbar .navbar-nav li a:active, body .navbar .navbar-nav li a:hover, body .navbar .navbar-nav li a:active {
+  color: #fff;
+}
+
+html #home, body #home {
+  background: url(img/ukulele-big.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+html #home .landing-text, body #home .landing-text {
+  color: #fff;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+html #home .landing-text h1, body #home .landing-text h1 {
+  font-size: 500%;
+  font-weight: 700;
+}
+
+html .padding, body .padding {
+  padding: 80px 0;
+}
+
+html .padding img, body .padding img {
+  width: 100%;
+}
+
+html .padding.second img, body .padding.second img {
+  width: 60%;
+}
+
+html #fixed, body #fixed {
+  background: url(img/ukulele-fixed.jpg) no-repeat center center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+html footer, body footer {
+  width: 100%;
+  background-color: #23415c;
+  padding: 5% 5% 10% 5%;
+  color: #fff;
+}
+
+html footer .fa, body footer .fa {
+  padding: 15px;
+  font-size: 25px;
+  color: white;
+}
+
+html footer .fa:hover, body footer .fa:hover {
+  color: #d5d5d5;
+  text-decoration: none;
+}
+
+html footer .icon, body footer .icon {
+  max-width: 200px;
+}
+
+@media (max-width: 768px) {
+  .landing-text h1 {
+    font-size: 300%;
+  }
+  .landing-text .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .landing-text .icon {
+    padding-top: 5%;
+    max-width: 100px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
